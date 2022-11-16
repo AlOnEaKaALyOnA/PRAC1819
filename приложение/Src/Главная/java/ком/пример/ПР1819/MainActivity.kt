@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean{
         return when (item.itemId) {
             R.id.info -> {
-                Toast.makeText(applicationContext, "Я очень долго пытался с этим разобраться, но я устал. Поставьте 5 пожалуйста!!!", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "1819", Toast.LENGTH_LONG).show()
                 true
             }
 
